@@ -86,4 +86,6 @@ pip install -r requirements.txt
 
 ---
 
+### Modo escuro
+
 ![Captura de tela de 2025-05-17 22-23-43](https://github.com/user-attachments/assets/8a6901a3-29ae-43e8-97ec-8d090bbd190a)
