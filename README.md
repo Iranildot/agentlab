@@ -1,4 +1,4 @@
-# AgentLab - Plataforma para Desenvolvimento e Experimentação de Agentes (Google Gemini)
+# 🤖 AgentLab - Plataforma para Desenvolvimento e Experimentação de Agentes (Google Gemini)
 
 ![Licença](https://img.shields.io/badge/licence-MIT-blue.svg)
 ![Contribuições](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
@@ -6,7 +6,6 @@
 ![Código de Conduta](https://img.shields.io/badge/code%20of%20conduct-enforced-brightgreen)
 
 AgentLab é um aplicativo intuitivo projetado para facilitar a criação e otimização de agentes autônomos, utilizando a API do Google Gemini para acesso a modelos LLM (Large Language Models). Ele oferece um ambiente completo para automação de tarefas, experimentação e testes, permitindo o desenvolvimento ágil e eficiente de agentes inteligentes.
-
 
 ---
 
@@ -31,19 +30,12 @@ Este repositório contém o código-fonte, documentação e exemplos da platafor
 ## 🛠️ Tecnologias Utilizadas
 
 - **Python**: Linguagem principal utilizada para o desenvolvimento da plataforma.
-
 - **Google Generative AI (`google.generativeai`)**: Interface com os modelos LLM da Google (como Gemini), que compõem o núcleo de raciocínio dos agentes.
-
 - **Flet**: Framework para construção da interface gráfica de forma rápida e responsiva, utilizando Python puro.
-
 - **Keyring**: Biblioteca utilizada para gerenciamento seguro de credenciais e chaves de API no sistema.
-
 - **JSON**: Utilizado para a estruturação, leitura e escrita dos dados de configuração dos agentes.
-
 - **Agents (`google.adk.agents`)** *(ou outro framework de agentes)*: Planejado para orquestração e execução de agentes autônomos. Pode ser substituído futuramente por frameworks como JADE, SPADE ou uma solução personalizada.
-
 - **Outras dependências**: Listadas no arquivo [`requirements.txt`](requirements.txt), incluindo bibliotecas auxiliares para testes, simulação e integração.
-
 
 ---
 
@@ -71,46 +63,49 @@ venv\Scripts\activate.bat # Windows
 pip install -r requirements.txt
 ```
 
-## Aparência do aplicativo
+---
 
-### Área de prompt
+## 🖼️ Aparência do aplicativo
+
+### 💬 Área de prompt
 
 ![Captura de tela de 2025-05-17 22-22-59](https://github.com/user-attachments/assets/318a3705-7288-45a2-9248-dbeafb2fb7a9)
 
 ---
 
-### Área de agentes
-
+### 🧠 Área de agentes
 
 ![Captura de tela de 2025-05-17 22-23-17](https://github.com/user-attachments/assets/6dbcb6fc-59b3-44ab-91d7-eccc781fa2cd)
 
 ---
 
-### Modo escuro
+### 🌙 Modo escuro
 
 ![Captura de tela de 2025-05-17 22-23-43](https://github.com/user-attachments/assets/8a6901a3-29ae-43e8-97ec-8d090bbd190a)
 
-## Modo de uso
+---
 
-### Conectando chave API
+## 🧪 Modo de uso
+
+### 🔐 Conectando chave API
 
 [Gravação de tela de 2025-05-17 22-37-00.webm](https://github.com/user-attachments/assets/e844d041-6689-46bd-88da-817650882b84)
 
 ---
 
-### Configurando o tema
+### 🎨 Configurando o tema
 
 [Gravação de tela de 2025-05-17 22-39-02.webm](https://github.com/user-attachments/assets/a0143f7c-09f4-46f9-8818-b70b5fcd1558)
 
 ---
 
-### Criando agentes de forma automática
+### ⚙️ Criando agentes de forma automática
 
 [Gravação de tela de 2025-05-17 22-48-05.webm](https://github.com/user-attachments/assets/6d2c2a22-9a94-44b1-8403-1fbc33bd163e)
 
 ---
 
-### Testando agentes via prompt
+### 🧾 Testando agentes via prompt
 
 [Gravação de tela de 2025-05-17 22-50-16.webm](https://github.com/user-attachments/assets/d8f96ec5-3d59-43c0-94fa-56f1705420af)
 
