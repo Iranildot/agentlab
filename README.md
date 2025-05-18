@@ -89,3 +89,29 @@ pip install -r requirements.txt
 ### Modo escuro
 
 ![Captura de tela de 2025-05-17 22-23-43](https://github.com/user-attachments/assets/8a6901a3-29ae-43e8-97ec-8d090bbd190a)
+
+## Modo de uso
+
+### Conectando chave API
+
+[Gravação de tela de 2025-05-17 22-37-00.webm](https://github.com/user-attachments/assets/e844d041-6689-46bd-88da-817650882b84)
+
+---
+
+### Configurando o tema
+
+[Gravação de tela de 2025-05-17 22-39-02.webm](https://github.com/user-attachments/assets/a0143f7c-09f4-46f9-8818-b70b5fcd1558)
+
+---
+
+### Criando agentes de forma automática
+
+[Gravação de tela de 2025-05-17 22-48-05.webm](https://github.com/user-attachments/assets/6d2c2a22-9a94-44b1-8403-1fbc33bd163e)
+
+---
+
+### Testando agentes via prompt
+
+[Gravação de tela de 2025-05-17 22-50-16.webm](https://github.com/user-attachments/assets/d8f96ec5-3d59-43c0-94fa-56f1705420af)
+
+---
