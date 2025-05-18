@@ -1,16 +1,12 @@
-# AgentLab - Plataforma para Desenvolvimento e Experimentação com Agentes Autônomos
+# AgentLab - Plataforma para Desenvolvimento e Experimentação de Agentes (Google Gemini)
 
 ![Licença](https://img.shields.io/badge/licence-MIT-blue.svg)
 ![Contribuições](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 ![Issues Abertas](https://img.shields.io/github/issues/Iranildot/agentlab)
 ![Código de Conduta](https://img.shields.io/badge/code%20of%20conduct-enforced-brightgreen)
 
-AgentLab é uma plataforma abrangente projetada para facilitar o desenvolvimento, teste e experimentação de agentes autônomos. Fornecendo um ambiente flexível e extensível, o AgentLab visa acelerar a pesquisa e o desenvolvimento em áreas como:
+AgentLab é um aplicativo intuitivo projetado para facilitar a criação e otimização de agentes autônomos, utilizando a API do Google Gemini para acesso a modelos LLM (Large Language Models). Ele oferece um ambiente completo para automação de tarefas, experimentação e testes, permitindo o desenvolvimento ágil e eficiente de agentes inteligentes.
 
-- Inteligência Artificial Distribuída
-- Sistemas Multiagentes
-- Robótica
-- Simulações
 
 ---
 
@@ -19,30 +15,35 @@ AgentLab é uma plataforma abrangente projetada para facilitar o desenvolvimento
 Este repositório contém o código-fonte, documentação e exemplos da plataforma AgentLab. Ele foi criado para ser:
 
 - **Fácil de usar**
-- **Altamente customizável**
 - **Voltado a pesquisadores, desenvolvedores e estudantes**
 
 ---
 
 ## ✨ Funcionalidades Principais
 
-- **Framework de Agentes**: Comportamentos complexos com percepção, raciocínio, ação e comunicação.
-- **Ambientes de Simulação**: Cenários prontos e personalizáveis para testes.
-- **Visualização e Monitoramento**: Ferramentas em tempo real para análise de desempenho.
-- **Comunicação entre Agentes**: Protocolos padronizados de interação.
-- **Arquitetura Modular**: Fácil integração com outras bibliotecas.
-- **Documentação Completa**: Tutoriais e exemplos claros para começar rapidamente.
+- **Ambiente de teste integrado**: Permite ao usuário visualizar e avaliar o comportamento dos agentes em tempo real, garantindo maior controle e precisão nos ajustes.
+- **Criação manual de agentes**: Oferece total flexibilidade ao usuário para definir manualmente as configurações de cada agente, incluindo modelo LLM, instruções e ferramentas.
+- **Criação automática de agentes**: Um agente especializado gera automaticamente novos agentes com base em um prompt fornecido pelo usuário, agilizando o processo de criação.
+- **Configuração de temas**: O usuário pode alternar entre diferentes temas visuais para adaptar a interface às suas preferências estéticas ou de acessibilidade.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python**: Linguagem principal da plataforma.
-- **Framework de Agentes**: *(Substitua por JADE, SPADE, etc.)*
-- **Simulação**: *(Ex: Pygame, Unity, etc.)*
-- **Visualização**: *(Ex: Matplotlib, Plotly, etc.)*
-- **Comunicação**: *(Ex: FIPA-ACL, MQTT, etc.)*
-- Outras dependências estão listadas em [`requirements.txt`](requirements.txt)
+- **Python**: Linguagem principal utilizada para o desenvolvimento da plataforma.
+
+- **Google Generative AI (`google.generativeai`)**: Interface com os modelos LLM da Google (como Gemini), que compõem o núcleo de raciocínio dos agentes.
+
+- **Flet**: Framework para construção da interface gráfica de forma rápida e responsiva, utilizando Python puro.
+
+- **Keyring**: Biblioteca utilizada para gerenciamento seguro de credenciais e chaves de API no sistema.
+
+- **JSON**: Utilizado para a estruturação, leitura e escrita dos dados de configuração dos agentes.
+
+- **Agents (`google.adk.agents`)** *(ou outro framework de agentes)*: Planejado para orquestração e execução de agentes autônomos. Pode ser substituído futuramente por frameworks como JADE, SPADE ou uma solução personalizada.
+
+- **Outras dependências**: Listadas no arquivo [`requirements.txt`](requirements.txt), incluindo bibliotecas auxiliares para testes, simulação e integração.
+
 
 ---
 
