@@ -85,3 +85,5 @@ pip install -r requirements.txt
 ![Captura de tela de 2025-05-17 22-23-17](https://github.com/user-attachments/assets/6dbcb6fc-59b3-44ab-91d7-eccc781fa2cd)
 
 ---
+
+![Captura de tela de 2025-05-17 22-23-43](https://github.com/user-attachments/assets/8a6901a3-29ae-43e8-97ec-8d090bbd190a)
