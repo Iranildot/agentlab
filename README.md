@@ -69,3 +69,18 @@ venv\Scripts\activate.bat # Windows
 
 # Instale as dependências
 pip install -r requirements.txt
+
+## Aparência do aplicativo
+
+### Área de prompt
+
+![Captura de tela de 2025-05-17 22-22-59](https://github.com/user-attachments/assets/318a3705-7288-45a2-9248-dbeafb2fb7a9)
+
+---
+
+### Área de agentes
+
+
+![Captura de tela de 2025-05-17 22-23-17](https://github.com/user-attachments/assets/6dbcb6fc-59b3-44ab-91d7-eccc781fa2cd)
+
+---
