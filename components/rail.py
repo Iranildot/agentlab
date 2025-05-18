@@ -41,4 +41,3 @@ class Control(ft.NavigationRail):
             case 1: # AGENTS
                 dashboard_area.area.controls = agents_dashboard
         dashboard_area.area.update()
-        
