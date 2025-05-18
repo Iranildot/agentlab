@@ -13,8 +13,6 @@ class App:
         self.page.title = "AgentLab"
         self.page.theme_mode = ft.ThemeMode.LIGHT
 
-        apikey_manager.load_apikey()
-
         self.page.on_keyboard_event = self.handle_key_event
 
         self.page.add(
